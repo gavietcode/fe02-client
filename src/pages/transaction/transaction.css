@@ -1,0 +1,19 @@
+.tContainer {
+  width: 100%;
+  height: auto;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+}
+
+thead {
+  text-align: left;
+  background-color: rgb(0, 216, 216);
+}
+
+th,
+td {
+  border: 1px solid rgb(184, 184, 184);
+}

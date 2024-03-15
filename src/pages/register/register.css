@@ -1,0 +1,50 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.re-Container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+}
+.re-Container .left img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+.re-Container .formInput {
+  margin: 1rem;
+}
+
+.re-Container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.re-Input {
+  width: 12rem;
+  border: none;
+  padding: 10px 20px;
+}
+
+.re-Button {
+  width: 10rem;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
