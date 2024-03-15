@@ -46,5 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://be01-server.onrender.com/"
+  "proxy": "https://be01-server.onrender.com/api"
 }
